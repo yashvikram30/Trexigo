@@ -442,8 +442,26 @@ export default function BookingFirstRidePage() {
 
           {/* Driver Earnings Section */}
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            {/* Left side - Image Grid */}
-            <div className="grid grid-cols-2 gap-4">
+            {/* Content - First on mobile, Right side on desktop */}
+            <div className="space-y-8 lg:order-2">
+              <div className="space-y-6">
+                <h2 className="text-4xl lg:text-5xl font-bold text-charcoal-900 leading-tight">
+                  Flexible Hours & <span className="text-emerald-600">High Earnings</span>
+                </h2>
+                <div className="w-16 h-1 bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-full"></div>
+                <p className="text-xl text-charcoal-600 leading-relaxed">
+                  Join as a Trexigo captain and earn on your own terms. Drive whenever you want.
+                </p>
+              </div>
+
+              <Button className="bg-charcoal-900 hover:bg-charcoal-800 text-white px-8 py-4 rounded-2xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 group">
+                Start Earning
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
+              </Button>
+            </div>
+
+            {/* Image Grid - Second on mobile, Left side on desktop */}
+            <div className="grid grid-cols-2 gap-4 lg:order-1">
               <div className="space-y-4">
                 <div className="bg-gradient-to-br from-green-100 to-green-200 rounded-2xl p-4 aspect-square flex items-center justify-center">
                   <img
@@ -476,24 +494,6 @@ export default function BookingFirstRidePage() {
                   />
                 </div>
               </div>
-            </div>
-
-            {/* Right side - Content */}
-            <div className="space-y-8">
-              <div className="space-y-6">
-                <h2 className="text-4xl lg:text-5xl font-bold text-charcoal-900 leading-tight">
-                  Flexible Hours & <span className="text-emerald-600">High Earnings</span>
-                </h2>
-                <div className="w-16 h-1 bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-full"></div>
-                <p className="text-xl text-charcoal-600 leading-relaxed">
-                  Join as a Trexigo captain and earn on your own terms. Drive whenever you want.
-                </p>
-              </div>
-
-              <Button className="bg-charcoal-900 hover:bg-charcoal-800 text-white px-8 py-4 rounded-2xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 group">
-                Start Earning
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
-              </Button>
             </div>
           </div>
         </div>
