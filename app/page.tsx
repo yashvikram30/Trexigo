@@ -423,7 +423,7 @@ export default function BookingFirstRidePage() {
               <div className="space-y-4 pt-8">
                 <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-2xl p-4 aspect-square flex items-center justify-center">
                   <img
-                    src="/placeholder.svg?height=200&width=200&text=Delivery"
+                    src="/driver.png?height=200&width=200&text=Delivery"
                     alt="Delivery service"
                     className="w-full h-full object-cover rounded-xl"
                   />
@@ -446,14 +446,14 @@ export default function BookingFirstRidePage() {
               <div className="space-y-4">
                 <div className="bg-gradient-to-br from-green-100 to-green-200 rounded-2xl p-4 aspect-square flex items-center justify-center">
                   <img
-                    src="/placeholder.svg?height=200&width=200&text=Driver+Earnings"
+                    src="/users.png?height=200&width=200&text=Driver+Earnings"
                     alt="Driver with earnings"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="bg-gradient-to-br from-orange-100 to-orange-200 rounded-2xl p-4 aspect-square flex items-center justify-center">
                   <img
-                    src="/placeholder.svg?height=200&width=200&text=Team+Drivers"
+                    src="/taxi-user.png?height=200&width=200&text=Team+Drivers"
                     alt="Team of drivers"
                     className="w-full h-full object-cover rounded-xl"
                   />
