@@ -23,6 +23,7 @@ import {
   Smartphone,
   Calendar,
   ArrowRight,
+  MapPin,
 } from "lucide-react"
 
 const vehicleTypes = [
@@ -430,7 +431,7 @@ export default function BookingFirstRidePage() {
                 </div>
                 <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl p-4 aspect-square flex items-center justify-center">
                   <img
-                    src="/placeholder.svg?height=200&width=200&text=Car+Ride"
+                    src="/road.png?height=200&width=200&text=Car+Ride"
                     alt="Car ride"
                     className="w-full h-full object-cover rounded-xl"
                   />
@@ -462,14 +463,14 @@ export default function BookingFirstRidePage() {
               <div className="space-y-4 pt-8">
                 <div className="bg-gradient-to-br from-teal-100 to-teal-200 rounded-2xl p-4 aspect-square flex items-center justify-center">
                   <img
-                    src="/placeholder.svg?height=200&width=200&text=Auto+Driver"
+                    src="/won.png?height=200&width=200&text=Auto+Driver"
                     alt="Auto rickshaw driver"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-2xl p-4 aspect-square flex items-center justify-center">
                   <img
-                    src="/placeholder.svg?height=200&width=200&text=Car+Driver"
+                    src="/travel2.png?height=200&width=200&text=Car+Driver"
                     alt="Car driver with earnings"
                     className="w-full h-full object-cover rounded-xl"
                   />
@@ -658,12 +659,36 @@ export default function BookingFirstRidePage() {
               </div>
             </div>
 
-            <div className="relative">
-              <img
-                src="/placeholder.svg?height=500&width=300&text=App+Screenshots"
-                alt="Trexigo mobile app"
-                className="mx-auto drop-shadow-2xl"
-              />
+            <div className="space-y-6">
+              <div>
+                <h4 className="font-semibold mb-4 text-emerald-400 flex items-center">
+                  <MapPin className="mr-2 h-5 w-5" />
+                  Our Locations
+                </h4>
+                <p className="text-gray-300 text-sm mb-4">
+                  We're available in major cities. Visit our offices or find service areas near you.
+                </p>
+              </div>
+              
+              <div className="bg-gray-800/50 rounded-2xl overflow-hidden border border-gray-700/50">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5047842298834!2d72.8776559!3d19.0759837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9f19e1b2d61%3A0x2b71a7e8b0dc2c37!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1641234567890!5m2!1sen!2sus"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full rounded-2xl"
+                  title="Trexigo Service Areas"
+                ></iframe>
+              </div>
+              
+              <div className="text-center">
+                <p className="text-xs text-gray-500">
+                  Service available in Mumbai, Delhi, Bangalore, Chennai, Pune and expanding to more cities
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -711,6 +736,9 @@ export default function BookingFirstRidePage() {
           </Button>
         </DialogContent>
       </Dialog>
+
+      {/* Footer with Google Maps */}
+
     </div>
   )
 }
