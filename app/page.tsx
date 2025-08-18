@@ -29,7 +29,7 @@ import {
 const vehicleTypes = [
   {
     id: "bike",
-    name: "TrexBike",
+    name: "SwiftBike",
     icon: Bike,
     price: 45,
     time: "5-8 min",
@@ -37,7 +37,7 @@ const vehicleTypes = [
   },
   {
     id: "auto",
-    name: "TrexAuto",
+    name: "SwiftAuto",
     icon: Car,
     price: 85,
     time: "8-12 min",
@@ -45,7 +45,7 @@ const vehicleTypes = [
   },
   {
     id: "car",
-    name: "TrexCar",
+    name: "SwiftCar",
     icon: Car,
     price: 150,
     time: "10-15 min",
@@ -53,7 +53,7 @@ const vehicleTypes = [
   },
   {
     id: "premium",
-    name: "TrexLux",
+    name: "SwiftLux",
     icon: Crown,
     price: 280,
     time: "12-18 min",
@@ -66,7 +66,7 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "Marketing Director",
     rating: 5,
-    comment: "Trexigo has transformed my daily commute. Always reliable and professional drivers.",
+    comment: "SwiftGO has transformed my daily commute. Always reliable and professional drivers.",
     avatar: "/placeholder.svg?height=60&width=60&text=SJ",
   },
   {
@@ -137,7 +137,7 @@ export default function BookingFirstRidePage() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-emerald-700 bg-clip-text text-transparent">
-                Trexigo
+                SwiftGO
               </h1>
             </div>
 
@@ -183,7 +183,7 @@ export default function BookingFirstRidePage() {
                 <h1 className="text-5xl lg:text-6xl font-bold text-charcoal-900 leading-tight">
                   Go anywhere with{" "}
                   <span className="bg-gradient-to-r from-emerald-600 to-emerald-700 bg-clip-text text-transparent">
-                    Trexigo
+                    SwiftGO
                   </span>
                 </h1>
               </div>
@@ -393,7 +393,7 @@ export default function BookingFirstRidePage() {
                 </h2>
                 <div className="w-16 h-1 bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-full"></div>
                 <p className="text-xl text-charcoal-600 leading-relaxed">
-                  In Trexigo we ensure our customers get rides quickly at the most affordable prices.
+                  In SwiftGO we ensure our customers get rides quickly at the most affordable prices.
                 </p>
               </div>
 
@@ -450,7 +450,7 @@ export default function BookingFirstRidePage() {
                 </h2>
                 <div className="w-16 h-1 bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-full"></div>
                 <p className="text-xl text-charcoal-600 leading-relaxed">
-                  Join as a Trexigo captain and earn on your own terms. Drive whenever you want.
+                  Join as a SwiftGO captain and earn on your own terms. Drive whenever you want.
                 </p>
               </div>
 
@@ -504,7 +504,7 @@ export default function BookingFirstRidePage() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-charcoal-900 mb-4">
-              Why Choose <span className="text-emerald-600">Trexigo</span>
+              Why Choose <span className="text-emerald-600">SwiftGO</span>
             </h2>
             <p className="text-lg text-charcoal-600">Premium rides, unmatched service</p>
           </div>
@@ -624,10 +624,10 @@ export default function BookingFirstRidePage() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h2 className="text-3xl lg:text-4xl font-bold leading-tight">
-                  Get the <span className="text-emerald-400">Trexigo App</span>
+                  Get the <span className="text-emerald-400">SwiftGO App</span>
                 </h2>
                 <p className="text-xl text-gray-300 leading-relaxed">
-                  Download our app for the complete Trexigo experience with exclusive features.
+                  Download our app for the complete SwiftGO experience with exclusive features.
                 </p>
               </div>
 
@@ -680,7 +680,7 @@ export default function BookingFirstRidePage() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   className="w-full rounded-2xl"
-                  title="Trexigo Service Areas"
+                  title="SwiftGO Service Areas"
                 ></iframe>
               </div>
               

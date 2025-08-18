@@ -22,8 +22,8 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Trexigo - Book Your Ride",
-  description: "Quick, safe, and reliable rides at your fingertips. Book now with Trexigo.",
+  title: "SwiftGO - Book Your Ride",
+  description: "Quick, safe, and reliable rides at your fingertips. Book now with SwiftGO.",
     generator: 'v0.dev'
 }
 
